@@ -42,14 +42,14 @@ create table if not exists clientes
 insert into  restaurante
 	(codRest, numTelRest, direRest, nomRest)
     values
-    (001, '952659874', 'calle del cielo', 'baliPoke');restaurante
+    (001, '952659874', 'calle del cielo', 'baliPoke');
 
 -- select * from restaurante; 
 
 insert into encargado
-	(codEncar, nomEncar, numTelEnca, diasTraba)
+	(codRest,codEncar, nomEncar, numTelEnca, diasTraba)
     values
-    (123, 'Juan perez', '60685989', 45);
+    (001,123, 'Juan perez', '60685989', 45);
     
    -- select * from encargado;
    insert into clientes 
