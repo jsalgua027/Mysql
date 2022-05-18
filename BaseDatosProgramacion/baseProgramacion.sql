@@ -42,7 +42,7 @@ create table if not exists clientes
 insert into  restaurante
 	(codRest, numTelRest, direRest, nomRest)
     values
-    (001, '952659874', 'calle del cielo', 'baliPoke');
+    (001, '952659874', 'calle del cielo', 'baliPoke');restaurante
 
 -- select * from restaurante; 
 
