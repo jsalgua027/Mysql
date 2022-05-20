@@ -5,6 +5,7 @@ use BaseDprograma;
 create table if not exists restaurante
 	(
     codRest int (4),
+    codEncar int (4),
     numTelRest varchar(60),
     direRest varchar(200),
     nomRest varchar(60),
